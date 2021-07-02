@@ -48,7 +48,7 @@ from ssl import SSLContext  # noqa: F401
 from tarfile import TarFile  # noqa: F401
 from zipfile import ZipFile
 import ssl
-ssl._create_default_https_context = ssl._create_unverified_context  #juejuegongsui
+ssl._create_default_https_context = ssl._create_unverified_context
 
 # Important notice: Please keep the lines above compatible with old Pythons so it won't fail with ImportError but with
 # a nice message printed by python_version_checker.check()
